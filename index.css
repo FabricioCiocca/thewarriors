@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Frijole';
+    src: url(/fonts/Frijole/Frijole-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Berkshire';
+    src: url(/fonts/Berkshire/BerkshireSwash-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Anaheim';
+    src: url(/fonts/Anaheim/Anaheim-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #020202;
+    color: white;
+}
+
+.container-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 4%;
+}
+
+.container-title .right-div {
+    text-align: center;
+}
+
+.container-title .left-div h1 {
+    font-size: 700%;
+    padding-top: 10%;
+    padding-left: 20%;
+    font-family: 'Frijole';
+}
+
+.container-title .left-div p {
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20%;
+}
+
+.container-title .right-div img {
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.container .left-div,
+.container .right-div {
+    text-align: center;
+}
+
+.container .left-div h2,
+.container .right-div h2 {
+    font-size: 600%;
+    padding-top: 10%;
+    font-family: 'Berkshire';
+}
+
+.container .left-div p,
+.container .right-div p {
+    font-size: 150%;
+    padding-top: 10%;
+    font-family: "Anaheim";
+}
+
+.left-div,
+.right-div {
+    padding: 20px;
+    width: 45%;
+}
